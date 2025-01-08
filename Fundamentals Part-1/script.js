@@ -52,3 +52,20 @@ console.log(population<33)
 
 const description = COUNTRY + " is in " + CONTINENT + ", and its " + population + " million people speak " + language;
 console.log(description)
+
+/**
+Strings and Template Literals: can be used as regular strings and also used for declaring multiple line strings.
+Recreate the description variable from the last assignment, this time using the template literal syntax.
+ */
+const new_description = `${COUNTRY} is in ${CONTINENT}, and its ${population} million people speak ${language}😊`
+console.log(new_description)
+
+/**
+Type Conversion and Coercion
+Predict the result of these 5 operations without executing them:
+ */
+console.log('9' - '5'); // -> 4?
+console.log('19' - '13' + '17'); // -> 617?
+console.log('19' - '13' + 17); // -> 23?
+console.log('123' < 57); // -> false?
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143?
